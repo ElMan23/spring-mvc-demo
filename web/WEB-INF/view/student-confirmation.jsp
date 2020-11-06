@@ -16,6 +16,10 @@
 
     Student's country: ${student.country}.
 
+    <br><br>
+
+    Favorite language: ${student.favoriteLanguage}.
+
 </body>
 
 </html>
