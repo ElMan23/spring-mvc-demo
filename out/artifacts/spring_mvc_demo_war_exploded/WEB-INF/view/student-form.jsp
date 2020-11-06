@@ -28,6 +28,12 @@
 
             <br><br>
 
+            Favorite language:
+
+            <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"  />
+
+            <br><br>
+
             <input type="submit" value="Submit" />
 
         </form:form>
