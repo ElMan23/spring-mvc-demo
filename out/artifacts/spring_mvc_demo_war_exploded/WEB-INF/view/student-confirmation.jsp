@@ -12,6 +12,10 @@
 
     The student is confirmed: ${student.firstName}  ${student.lastName}.
 
+    <br><br>
+
+    Student's country: ${student.country}.
+
 </body>
 
 </html>
