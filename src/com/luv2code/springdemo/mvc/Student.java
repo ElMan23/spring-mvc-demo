@@ -1,5 +1,6 @@
 package com.luv2code.springdemo.mvc;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 public class Student {
@@ -11,6 +12,8 @@ public class Student {
     private String favoriteLanguage;
 
     private LinkedHashMap<String, String> favoriteLanguageOptions = new LinkedHashMap<>();
+
+    private String[] operatingSystems;
 
     public Student() {
 
@@ -58,5 +61,17 @@ public class Student {
 
     public LinkedHashMap<String, String> getFavoriteLanguageOptions() {
         return favoriteLanguageOptions;
+    }
+
+    public void setFavoriteLanguageOptions(LinkedHashMap<String, String> favoriteLanguageOptions) {
+        this.favoriteLanguageOptions = favoriteLanguageOptions;
+    }
+
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
     }
 }
