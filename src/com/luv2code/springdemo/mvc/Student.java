@@ -1,6 +1,5 @@
 package com.luv2code.springdemo.mvc;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 public class Student {
